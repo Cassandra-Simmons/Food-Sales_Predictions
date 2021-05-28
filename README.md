@@ -44,7 +44,7 @@ Item ID was eliminated from the final model for both performance reasons (there 
 
 Another change that was made was the dropping of the Outlet Establishment Year column for our final model. This was because it was found that each outlet ID corresponded to exactly one year. Therefore outlet ID and Outlet Establishment Year had a 1:1 relationship and could be thought of as dependant variables. It would be pointless to add both to the model. For the sake of maintaining the concept of a 'generational effect' of the year a store opened, I instead created a new Decade column which denoted the decade a store was opened in (80s, 90s, etc.). This imporoved the performance of the model, and it was found at the end of our modeling process that Decade itself also had no significant effect on the model.
 
-##Preliminary Analysis - Data Exploration
+## Preliminary Analysis - Data Exploration
 
 Before starting the modeling process, the following observations of note were made:
 
